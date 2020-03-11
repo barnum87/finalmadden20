@@ -8,8 +8,8 @@ const app = express();
 // const serviceAccount = require("./REPLACE_WITH_SERVICE_ACCOUNT.json");
 const serviceAccount = require("./finalmadden20-firebase-adminsdk-p2til-a89d4d7fc1.json);
 // TODO: Enter your database url from firebase
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
+admin.initializeApp({
+credential: admin.credential.cert(serviceAccount),
 //   databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
 databaseURL: "https://finalmadden20.firebaseio.com/"                              
 // });
