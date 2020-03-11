@@ -11,7 +11,7 @@ const serviceAccount = require("./finalmadden20-firebase-adminsdk-p2til-a89d4d7f
 // admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
 //   databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
-databaseURL: "https://finalmadden20.firebaseio.com"                              
+databaseURL: "https://finalmadden20.firebaseio.com/"                              
 // });
 
 app.set('port', (process.env.PORT || 3001));
